@@ -3,11 +3,8 @@
 import os, random, time
 from rich import print as cetak
 from rich.panel import Panel as nel
-from rich.tree import Tree as anak
-from rich.console import Console 
-col = Console()
 
-#warna
+# warna
 M2, H2, K2, P2, B2, U2, O2, C2, J2 = ["[#FF0000]", "[#00FF00]", "[#FFFF00]", "[#FFFFFF]", "[#1e00ff]", "[#b900ff]", "[#EB6000]", "[#00fbff]", "[#ff14cf]"]
 acak = [M2, H2, K2, B2, U2, O2, P2, C2, J2]
 warna2 = random.choice(acak)
@@ -19,6 +16,7 @@ tod = f' {H2}‹{K2}‹{M2}‹'
 # apa aja
 khodam = random.choice(['Raja Iblis','Ohio RizZ','Ambatukam','Harimau aw','Gunderwo Slebew','Lucinta Luna','Mas Adi','Om Ripan','Vina Garut','Kura-Kura Mesir','Ular Kaki 1','Bebek Kaki 2','Bakwan Jagung','Cina Setan'])
 
+# logo
 def logo():
     log = nel.fit(f'''{til}
 {warna2},--. ,--.,--.               ,--.                  
