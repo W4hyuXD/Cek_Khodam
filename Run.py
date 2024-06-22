@@ -17,7 +17,7 @@ tod = f' {H2}‹{K2}‹{M2}‹'
 
 
 # apa aja
-khodam = random.choice(['Raja Iblis','Ohio RizZ','Ambatukam','Harimau aw','Gunderwo Slebew','Lucinta Luna','Mas Adi','Om Ripan','Vina Garut','Kura-Kura Mesir','Ular Kaki 1','Bebek Kaki 2','Bakwan Jagung','Nasi Padang Cina'])
+khodam = random.choice(['Raja Iblis','Ohio RizZ','Ambatukam','Harimau aw','Gunderwo Slebew','Lucinta Luna','Mas Adi','Om Ripan','Vina Garut','Kura-Kura Mesir','Ular Kaki 1','Bebek Kaki 2','Bakwan Jagung','Cina Setan'])
 
 def logo():
     log = nel.fit(f'''{til}
@@ -26,8 +26,9 @@ def logo():
 |  .   ' |  .-.  || .-. |' .-. |' ,-.  ||        |
 |  |\   \|  | |  |' '-' '\ `-' |\ '-'  ||  |  |  |
 `--' '--'`--' `--' `---'  `---'  `--`--'`--`--`--'
-''',title=f'{ken}{P2}Banner{tod}',style='#ff0000');os.popen('play-audio Data/Audio/music.mp3')
+''',title=f'{ken}{P2}Banner{tod}',style='#ff0000')
     cetak(log)
+    
 def cek():
     os.system('clear')
     logo()
@@ -43,5 +44,6 @@ if __name__=='__main__':
     try:
         os.system('clear')
         os.system('pkg i -y play-audio')
+        os.popen('play-audio Data/Audio/music.mp3')
     except:pass
     cek()
