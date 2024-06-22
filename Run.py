@@ -35,7 +35,7 @@ def cek():
     print('\n[!] Sedang Mengecek Khodam...');time.sleep(2)
     print('\n')
     cetak(nel('[#00FF00]     {}[#FFFFFF] Kamu Mempunya Khodam [#00FF00]{}'.format(cekk,khodam),width=54,style='#FF0000'));os.popen('play-audio Data/Audio/a.mp3')
-    last = input('\n  <[Press Enter]>')
+    last = input('\n  <[Press Enter]>
     cek()
 
 if __name__=='__main__':
