@@ -24,7 +24,7 @@ def logo():
 |  .   ' |  .-.  || .-. |' .-. |' ,-.  ||        |
 |  |\   \|  | |  |' '-' '\ `-' |\ '-'  ||  |  |  |
 `--' '--'`--' `--' `---'  `---'  `--`--'`--`--`--'
-           [on italic #FF0000]{P2}Coded By WahyuXD.
+           [on #FF0000]{P2}Coded By WahyuXD.
 ''',title=f'{ken}{P2}Banner{tod}',style='#ff0000')
     cetak(log)
     
