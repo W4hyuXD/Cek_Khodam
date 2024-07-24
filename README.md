@@ -1,7 +1,7 @@
 # Cek_Khodam
 This tool functions to check khodam
 
-```
+```bash
 pkg update -y && pkg upgrade -y
 pkg i -y python git
 pip3 install rich
