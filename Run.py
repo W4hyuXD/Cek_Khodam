@@ -36,8 +36,15 @@ def cek():
     print('\n[!] Sedang Mengecek Khodam...');time.sleep(2)
     print('\n')
     cetak(nel('[#00FF00]     {}[#FFFFFF] Khodam Kamu Adalah [#00FF00]{}'.format(cekk,khodam),width=54,style='#FF0000'));os.popen('play-audio Data/Audio/a.mp3')
-    last = input('\n  <[Press Enter]>')
-    cek()
+    last = input('\n Mau cek Khodam lagi? Y/n : ')
+    if last=="":
+      exit("Input yang bener njir!")
+    elif last=="Y" or last=="y":
+      cek()
+    elif last=="N" or last=="n":
+      exit("Terimaksih sudah menggunakan tools saya >_<")
+    else:
+    exit()
 
 if __name__=='__main__':
     try:
