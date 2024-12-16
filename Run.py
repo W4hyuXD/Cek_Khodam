@@ -44,7 +44,7 @@ def cek():
     elif last=="N" or last=="n":
       exit("Terimaksih sudah menggunakan tools saya >_<")
     else:
-    exit()
+      exit()
 
 if __name__=='__main__':
     try:
